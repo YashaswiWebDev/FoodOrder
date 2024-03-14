@@ -1,0 +1,43 @@
+header{
+    background-color: white;
+    padding: 0;
+    border-bottom: 1px solid #e72929;
+}
+a{
+    color:olive;
+}
+a:hover{
+    background-color: #e72929;
+    color: white;
+}
+ul li a{
+    font-size: 20px;
+    line-height: 20px;
+    margin: 2px;
+    font-weight: bold;
+}
+.container a{
+    font-size: 23px;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+a.logo{
+    padding: 1em;
+    font-weight: bold;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+nav ul li a{
+    padding: 1em;
+    display: inline-block;
+}
+.active{
+    background-color: grey;
+    color: white;
+    padding: 0;
+}
